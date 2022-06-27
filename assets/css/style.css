@@ -1,0 +1,53 @@
+.nuxt-notion-like blockquote,
+.nuxt-notion-like dl,
+.nuxt-notion-like dd,
+.nuxt-notion-like h1,
+.nuxt-notion-like h2,
+.nuxt-notion-like h3,
+.nuxt-notion-like h4,
+.nuxt-notion-like h5,
+.nuxt-notion-like h6,
+.nuxt-notion-like hr,
+.nuxt-notion-like figure,
+.nuxt-notion-like p,
+.nuxt-notion-like pre {
+  margin: revert;
+}
+
+.nuxt-notion-like a {
+  color: blue;
+}
+
+.nuxt-notion-like ol {
+  list-style: revert;
+  margin: revert;
+  padding: revert;
+}
+
+.nuxt-notion-like table {
+  border-collapse: revert;
+}
+
+.nuxt-notion-like h1,
+.nuxt-notion-like h2,
+.nuxt-notion-like h3,
+.nuxt-notion-like h4,
+.nuxt-notion-like h5,
+.nuxt-notion-like h6 {
+  font-size: revert;
+  font-weight: revert;
+}
+
+.block-component {
+  border-radius: 5px;
+  padding: 2px 0px;
+  margin-bottom: 5px;
+  outline: none;
+  cursor: text;
+}
+
+.block-component:empty:before {
+  content: attr(placeholder);
+  color: rgba(0, 0, 0, 0.2);
+  -webkit-text-fill-color: rgba(0, 0, 0, 0.2);
+}
